@@ -9,7 +9,7 @@ env_path = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
 # Fallback: Hardcode the key cleanly without quotes if .env file reading fails
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "gsk_xxxx"
 
 # 2. NOW IMPORT REST OF THE APPLICATION MODULES
 from contextlib import asynccontextmanager  # noqa: E402
