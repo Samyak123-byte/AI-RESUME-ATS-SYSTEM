@@ -24,34 +24,10 @@ AI-RESUME-ATS-SYSTEM/
 └── requirements.txt  # Project dependencies
 ```
 
-## 🔄 How It Works (Workflow)
-
-Here is the complete step-by-step working of the AI Resume ATS System:
-
-```text
-[User Uploads Resume] ➡️ [Enters Job Description] ➡️ [AI Extraction & Parsing] ➡️ [ATS Scoring & Match Analysis] ➡️ [Interactive Dashboard Output]
-```
-
-### 1️⃣ Step 1: User Input (Frontend)
-- User dashboard par aakar apna **Resume (PDF/Docx format)** upload karta hai.
-- Usi ke sath diye gaye text area mein woh targeted **Job Description (JD)** ko paste karta hai.
-
-### 2️⃣ Step 2: Data Parsing (Backend)
-- Backend system resume se saara text extract karta hai.
-- Python scripts pure text ko clean aur format karti hain taaki AI use sahi se samajh sake.
-
-### 3️⃣ Step 3: AI Processing (Groq API)
-- Extracted resume aur job description dono ko secure tarike se **Groq Cloud AI Model** ke paas bheja jata hai.
-- AI dono text ko compare karta hai aur niche di gayi cheezein calculate karta hai:
-  - **Match Score (%)**
-  - **Missing Keywords & Skills**
-  - **Profile Summary Improvement Tips**
-
-### 4️⃣ Step 4: JSON Output Generation
-- AI se aane wale raw response ko backend ek structured **JSON format** mein convert karta hai taaki data breakdown aasan ho sake.
-
-### 5️⃣ Step 5: Final Result Display (User View)
-- Frontend par user ko ek clean, visually appealing format mein output dikhaya jata hai:
-  - **Progress Bar:** Jo ATS Score dikhati hai (e.g., 75% Match).
-  - **Bullet Points:** Jo batate hain ki kaunse keywords resume mein missing hain.
-  - **Verdict:** Ek professional advice ki resume mein kya badlav karne chahiye.
+🔄 How It Works (Workflow)Here is the complete step-by-step working of the AI Resume ATS System:text[User Uploads Resume] ➡️ [Enters Job Description] ➡️ [AI Extraction & Parsing] ➡️ [ATS Scoring & Match Analysis] ➡️ [Interactive Dashboard Output]
+Use code with caution.
+1️⃣ Step 1: User Input (Frontend)The user visits the dashboard and uploads their Resume (PDF/Docx format).Along with it, they paste the targeted Job Description (JD) into the provided text area.
+2️⃣ Step 2: Data Parsing (Backend)The backend system extracts all the text from the resume.Python scripts clean and format the entire text so that the AI can understand it accurately.
+3️⃣ Step 3: AI Processing (Groq API)Both the extracted resume and the job description are securely sent to the Groq Cloud AI Model.The AI compares both texts and calculates the following elements:Match Score (%)Missing Keywords & SkillsProfile Summary Improvement Tips
+4️⃣ Step 4: JSON Output GenerationThe backend converts the raw response received from the AI into a structured JSON format for an easy data breakdown.
+5️⃣ Step 5: Final Result Display (User View)The output is displayed to the user on the frontend in a clean, visually appealing format:Progress Bar: Displays the ATS Score (e.g., 75% Match).Bullet Points: Highlights which keywords are missing from the resume.Verdict: Provides professional advice on what changes should be made to the resume.
