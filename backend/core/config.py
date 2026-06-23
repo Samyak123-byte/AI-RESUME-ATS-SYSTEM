@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 
-# 1. API KEY को सीधे यहाँ फिक्स (Hardcode) कर दिया ताकि लोड ऑर्डर का झंझट खत्म हो जाए
-GROQ_API_KEY = "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"
+
+GROQ_API_KEY = gsk_xxxx
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 # Load .env explicitly if available
