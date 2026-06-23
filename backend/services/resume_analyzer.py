@@ -1,6 +1,6 @@
 import os
 # Forcefully set the key at the very top of the analyzer service file
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "gsk_xxxx"
 
 # Iske niche aapka baki ka saara code chalta rahega...
 import spacy
